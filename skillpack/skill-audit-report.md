@@ -1,17 +1,17 @@
 # Codex Skills Audit Report
 
-Generated: 2026-01-15 18:15
+Generated: 2026-01-16
 
 ## Snapshot layout
-- Codex skills copied into: `E:\OS\skillpack\codex-skills`
-- Scientific CS skillpack copied into: `E:\OS\skillpack\scientific-skills`
-- Note: the original `E:\OS\skillpack\scientific-cs*` folders could not be moved/deleted in this environment (missing delete permissions). Treat `scientific-skills/` as canonical.
+- Skills root: `E:\OS\skillpack` (flattened; no extra wrapper directory)
+- Scientific CS skillpack: `E:\OS\skillpack\scientific-skills`
+- Note: `E:\OS\skillpack\codex-skills` has been removed after flattening.
 
 ## Inventory
-- Codex skills (`SKILL.md`) found: **28**
-- Scientific skills (`SKILL.md`) found: **6**
+- Total skills (`SKILL.md`) found under `E:\OS\skillpack`: **32**
+- Scientific CS skills (`scientific-cs*`): **6**
 
-### Codex skill names
+### Non-scientific skill names
 - `advanced-evaluation`
 - `bdi-mental-states`
 - `book-sft-pipeline`
@@ -32,8 +32,6 @@ Generated: 2026-01-15 18:15
 - `prd-taskmaster`
 - `project-development`
 - `reasoning-trace-optimizer`
-- `skill-creator`
-- `skill-installer`
 - `skill-template`
 - `theme-factory`
 - `tool-design`
@@ -54,11 +52,12 @@ No duplicate `name:` values detected across the copied sets.
 
 ## Structural conflicts
 Skills where folder name != `name:` (can be confusing during installation):
-- pack=`codex` folder=`Agent-Skills-for-Context-Engineering` name=`context-engineering-collection` path=`E:\OS\skillpack\codex-skills\Agent-Skills-for-Context-Engineering\SKILL.md`
-- pack=`codex` folder=`claude-designer-skill` name=`designer` path=`E:\OS\skillpack\codex-skills\claude-designer-skill\SKILL.md`
-- pack=`codex` folder=`template` name=`skill-template` path=`E:\OS\skillpack\codex-skills\Agent-Skills-for-Context-Engineering\template\SKILL.md`
-- pack=`codex` folder=`digital-brain-skill` name=`digital-brain` path=`E:\OS\skillpack\codex-skills\Agent-Skills-for-Context-Engineering\examples\digital-brain-skill\SKILL.md`
-- pack=`codex` folder=`interleaved_thinking` name=`reasoning-trace-optimizer` path=`E:\OS\skillpack\codex-skills\Agent-Skills-for-Context-Engineering\examples\interleaved_thinking\SKILL.md`
+- folder=`Agent-Skills-for-Context-Engineering` name=`context-engineering-collection` path=`E:\OS\skillpack\Agent-Skills-for-Context-Engineering\SKILL.md`
+- folder=`claude-designer-skill` name=`designer` path=`E:\OS\skillpack\claude-designer-skill\SKILL.md`
+- folder=`template` name=`skill-template` path=`E:\OS\skillpack\Agent-Skills-for-Context-Engineering\template\SKILL.md`
+- folder=`digital-brain-skill` name=`digital-brain` path=`E:\OS\skillpack\Agent-Skills-for-Context-Engineering\examples\digital-brain-skill\SKILL.md`
+- folder=`interleaved_thinking` name=`reasoning-trace-optimizer` path=`E:\OS\skillpack\Agent-Skills-for-Context-Engineering\examples\interleaved_thinking\SKILL.md`
+- folder=`scientific-skills` name=`scientific-cs` path=`E:\OS\skillpack\scientific-skills\SKILL.md`
 
 ## Potential scope overlaps (heuristic)
 Flags skills whose `name+description` share keywords. This suggests possible trigger overlap, not duplication.

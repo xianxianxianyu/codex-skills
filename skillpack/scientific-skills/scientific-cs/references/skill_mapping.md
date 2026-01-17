@@ -2,6 +2,9 @@
 
 This skillpack intentionally **merges** many upstream skills to keep Codex’s always-on context small.
 
+## Installation note (Codex)
+This repo stores these skills as a pack under `E:\OS\skillpack\scientific-skills`. When installing into `~/.codex/skills`, copy each `scientific-cs*` folder as its own top-level skill directory (each contains a `SKILL.md`).
+
 ## Router
 - `scientific-cs`
   - New: phase protocol + runbook pattern (Codex has no subagents)
