@@ -11,6 +11,7 @@ Date: YYYY-MM-DD
 Version: v1.x
 Status: draft | review | final
 Source: <user prompt or input docs>
+Activated-Skills: <skill-name[, ...]>
 
 ## Doc-ID Format
 

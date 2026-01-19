@@ -7,6 +7,7 @@ Date: 2026-01-19
 Version: v1.0
 Status: draft
 Source: codex-skills 仓库维护目标（移除 skillpack + 补齐文档）
+Activated-Skills: requirements-elicitation
 
 ## Summary
 - 目标：让 codex-skills 在不内置 `skillpack/` 的情况下仍可用，并用 5 份 docs 统一产出格式。

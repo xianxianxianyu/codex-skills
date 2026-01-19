@@ -7,6 +7,7 @@ Date: 2026-01-19
 Version: v1.0
 Status: draft
 Source: docs/prd.md, docs/feasibility.md
+Activated-Skills: code-agent-core
 
 ## Summary
 - 移除仓库中的 `skillpack/`（减小体积、明确外部依赖边界）。

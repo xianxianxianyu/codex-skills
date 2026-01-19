@@ -7,6 +7,7 @@ Date: 2026-01-19
 Version: v1.0
 Status: draft
 Source: docs/prd.md (PRD-2026-01-19-001)
+Activated-Skills: feasibility-analysis
 
 ## Summary
 - 目标：在移除 `skillpack/` 后，仍能让仓库可用，并用 docs 模板明确流程与依赖。

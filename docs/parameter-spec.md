@@ -7,6 +7,7 @@ Date: 2026-01-19
 Version: v1.0
 Status: draft
 Source: subagent-skills/_shared/doc-contract.md + 本仓库使用约定
+Activated-Skills: parameter-sanity
 
 ## Summary
 - 本文件用于“文档化产出”的参数规范：如何生成/填写 Doc-ID、状态、输出路径与追加策略。

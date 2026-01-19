@@ -12,7 +12,9 @@ description: Implement code changes based on requirements and feasibility, with 
 
 ## Output
 
-- 文档正文用中文撰写；术语/字段名/命令/代码/路径/标识符等可以保留英文原样。
+- 文档正文用中文撰写；术语/字段名/命令/代码/路径/标识符等可以保留英文原样。
+- 在对话输出开头显式写明：已激活技能：code-agent-core（如同时使用其它 skills，按逗号补充）。
+- 在输出文档 Required Header 中填写：Activated-Skills: code-agent-core。
 - Default output path: `docs/implementation-report.md` (ask the user if they prefer another location).
 - Follow the Doc Contract format.
 

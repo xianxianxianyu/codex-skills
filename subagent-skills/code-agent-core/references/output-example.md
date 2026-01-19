@@ -6,7 +6,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: docs/prd.md, docs/feasibility.md
+Source: docs/prd.md, docs/feasibility.md
+Activated-Skills: code-agent-core
 
 ## Summary
 - Added ticket submission API.

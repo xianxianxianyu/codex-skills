@@ -7,6 +7,7 @@ Date: 2026-01-19
 Version: v1.0
 Status: draft
 Source: codex-skills 仓库维护/使用说明
+Activated-Skills: qa-basic
 
 ## Summary
 - 本文件是 `qa-basic` 的输出示例/模板，用于把一次问答沉淀成可追溯文档。

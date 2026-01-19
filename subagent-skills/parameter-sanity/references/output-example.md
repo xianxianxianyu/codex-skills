@@ -6,7 +6,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: src/config.ts
+Source: src/config.ts
+Activated-Skills: parameter-sanity
 
 ## Summary
 - Normalized defaults for batch processing.

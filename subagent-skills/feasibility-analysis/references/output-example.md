@@ -6,7 +6,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: docs/prd.md
+Source: docs/prd.md
+Activated-Skills: feasibility-analysis
 
 ## Summary
 - Two options evaluated for the feedback portal.

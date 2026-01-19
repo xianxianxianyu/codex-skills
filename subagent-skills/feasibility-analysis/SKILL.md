@@ -11,7 +11,9 @@ description: Convert a PRD or requirements into a technical feasibility analysis
 
 ## Output
 
-- 文档正文用中文撰写；术语/字段名/命令/代码/路径/标识符等可以保留英文原样。
+- 文档正文用中文撰写；术语/字段名/命令/代码/路径/标识符等可以保留英文原样。
+- 在对话输出开头显式写明：已激活技能：feasibility-analysis（如同时使用其它 skills，按逗号补充）。
+- 在输出文档 Required Header 中填写：Activated-Skills: feasibility-analysis。
 - Default output path: `docs/feasibility.md` (ask the user if they prefer another location).
 - Follow the Doc Contract format.
 

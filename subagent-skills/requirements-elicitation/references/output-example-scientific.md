@@ -8,7 +8,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: User prompt
+Source: User prompt
+Activated-Skills: requirements-elicitation
 
 ## Summary
 - Build a DICOM ingestion and QC pipeline.
@@ -71,7 +72,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: User prompt
+Source: User prompt
+Activated-Skills: requirements-elicitation
 
 ## Summary
 - Train a baseline classifier for triage.
@@ -134,7 +136,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: User prompt
+Source: User prompt
+Activated-Skills: requirements-elicitation
 
 ## Summary
 - Build EDA reports for study datasets.
@@ -197,7 +200,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: User prompt
+Source: User prompt
+Activated-Skills: requirements-elicitation
 
 ## Summary
 - Draft an Opentrons protocol for sample prep.
@@ -260,7 +264,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: User prompt
+Source: User prompt
+Activated-Skills: requirements-elicitation
 
 ## Summary
 - Draft IMRAD outline for a methods paper.

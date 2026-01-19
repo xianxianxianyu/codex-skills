@@ -8,7 +8,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: docs/prd.md
+Source: docs/prd.md
+Activated-Skills: feasibility-analysis
 
 ## Summary
 - Two pipeline options evaluated for DICOM de-id + QC.
@@ -62,7 +63,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: docs/prd.md
+Source: docs/prd.md
+Activated-Skills: feasibility-analysis
 
 ## Summary
 - Baseline model is feasible with current data.
@@ -116,7 +118,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: docs/prd.md
+Source: docs/prd.md
+Activated-Skills: feasibility-analysis
 
 ## Summary
 - EDA report generator is feasible with current tooling.
@@ -169,7 +172,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: docs/prd.md
+Source: docs/prd.md
+Activated-Skills: feasibility-analysis
 
 ## Summary
 - OT-2 protocol is feasible with current labware.
@@ -222,7 +226,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: docs/prd.md
+Source: docs/prd.md
+Activated-Skills: feasibility-analysis
 
 ## Summary
 - IMRAD draft is feasible with current sources.

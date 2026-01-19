@@ -6,7 +6,8 @@ Owner: Example
 Date: 2026-01-18
 Version: v1.0
 Status: draft
-Source: User prompt
+Source: User prompt
+Activated-Skills: requirements-elicitation
 
 ## Summary
 - Define MVP scope for a customer feedback portal.
