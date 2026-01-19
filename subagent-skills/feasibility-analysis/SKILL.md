@@ -1,4 +1,4 @@
-﻿---
+---
 name: feasibility-analysis
 description: Convert a PRD or requirements into a technical feasibility analysis with options, risks, cost and timeline estimates, and a recommendation. Use when the user asks "is this feasible" or wants a feasibility report.
 ---

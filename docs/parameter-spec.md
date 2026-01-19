@@ -1,4 +1,4 @@
-﻿# Parameter Spec
+# Parameter Spec
 
 Doc-ID: PARAM-2026-01-19-001
 Doc-Type: params

@@ -1,4 +1,4 @@
-﻿# Doc Contract v1
+# Doc Contract v1
 
 Use this contract for all subagent output documents.
 

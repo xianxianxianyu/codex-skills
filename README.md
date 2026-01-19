@@ -1,4 +1,4 @@
-﻿# Codex Subagent Skills
+# Codex Subagent Skills
 
 一组独立的 Codex 子代理技能（subagents），用于文档化地完成问答、需求、可行性、代码交付和参数合理性校准。每个 skill 以文档为主要产物，遵循统一的 Doc Contract 规范，便于跨技能共享与复用。
 

@@ -1,4 +1,4 @@
-﻿---
+---
 name: requirements-elicitation
 description: Turn a project idea or prompt into a structured PRD or requirements document. Use when the user asks for requirements, PRD, specs, proposals, scope definition, or acceptance criteria.
 ---

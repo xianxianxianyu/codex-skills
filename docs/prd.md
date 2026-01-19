@@ -1,4 +1,4 @@
-﻿# PRD
+# PRD
 
 Doc-ID: PRD-2026-01-19-001
 Doc-Type: prd

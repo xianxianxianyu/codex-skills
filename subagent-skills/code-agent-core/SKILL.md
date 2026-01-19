@@ -1,4 +1,4 @@
-﻿---
+---
 name: code-agent-core
 description: Implement code changes based on requirements and feasibility, with planning, edits, self-checks, tests, and a clear change summary. Use when the user asks to implement, modify, or debug code.
 ---

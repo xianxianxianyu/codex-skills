@@ -1,4 +1,4 @@
-﻿## Skills（仓库内置）
+## Skills（仓库内置）
 
 本仓库将可用技能（skills）放在 `subagent-skills/` 下；每个 skill 都有一个 `SKILL.md` 作为入口文档。
 

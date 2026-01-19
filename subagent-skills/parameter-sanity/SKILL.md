@@ -1,4 +1,4 @@
-﻿---
+---
 name: parameter-sanity
 description: Validate and calibrate default parameter sets for code outputs. Use when users ask for reasonable defaults, safe parameter combinations, config tuning, or sanity checks after code changes.
 ---

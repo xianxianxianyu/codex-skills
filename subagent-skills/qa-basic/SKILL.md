@@ -1,4 +1,4 @@
-﻿---
+---
 name: qa-basic
 description: Answer quick, lightweight questions and record a short QA note. Use when the user wants a fast explanation, definition, or comparison, and does not request code changes or long-form docs.
 ---

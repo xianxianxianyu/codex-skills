@@ -1,4 +1,4 @@
-﻿# Feasibility
+# Feasibility
 
 Doc-ID: FEAS-2026-01-19-001
 Doc-Type: feasibility

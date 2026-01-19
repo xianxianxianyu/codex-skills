@@ -1,4 +1,4 @@
-﻿# QA Notes
+# QA Notes
 
 Doc-ID: QA-2026-01-19-001
 Doc-Type: qa
