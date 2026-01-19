@@ -1,4 +1,4 @@
----
+﻿---
 name: code-agent-core
 description: Implement code changes based on requirements and feasibility, with planning, edits, self-checks, tests, and a clear change summary. Use when the user asks to implement, modify, or debug code.
 ---
@@ -12,6 +12,7 @@ description: Implement code changes based on requirements and feasibility, with 
 
 ## Output
 
+- 文档正文用中文撰写；术语/字段名/命令/代码/路径/标识符等可以保留英文原样。
 - Default output path: `docs/implementation-report.md` (ask the user if they prefer another location).
 - Follow the Doc Contract format.
 
@@ -60,4 +61,6 @@ description: Implement code changes based on requirements and feasibility, with 
 - `ui-ux-pro-max`
 - `web-artifacts-builder`
 - `parameter-sanity`
+
+
 

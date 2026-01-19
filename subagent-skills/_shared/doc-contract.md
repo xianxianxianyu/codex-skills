@@ -1,4 +1,4 @@
-# Doc Contract v1
+﻿# Doc Contract v1
 
 Use this contract for all subagent output documents.
 
@@ -21,6 +21,10 @@ Source: <user prompt or input docs>
 - params: PARAM-YYYY-MM-DD-###
 
 ## Required Sections
+
+## Language
+
+- 文档正文用中文撰写；术语/字段名/命令/代码/路径/标识符等可以保留英文原样。
 
 ## Summary
 - 3 to 7 concise bullets
@@ -97,4 +101,5 @@ Source: <user prompt or input docs>
 
 - If appending multiple entries in one file, separate entries with a line: "---".
 - Each entry must include the Required Header and Required Sections.
+
 

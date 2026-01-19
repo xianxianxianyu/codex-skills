@@ -1,4 +1,4 @@
----
+﻿---
 name: requirements-elicitation
 description: Turn a project idea or prompt into a structured PRD or requirements document. Use when the user asks for requirements, PRD, specs, proposals, scope definition, or acceptance criteria.
 ---
@@ -11,6 +11,7 @@ description: Turn a project idea or prompt into a structured PRD or requirements
 
 ## Output
 
+- 文档正文用中文撰写；术语/字段名/命令/代码/路径/标识符等可以保留英文原样。
 - Default output path: `docs/prd.md` (ask the user if they prefer another location).
 - Follow the Doc Contract format.
 
@@ -62,4 +63,6 @@ description: Turn a project idea or prompt into a structured PRD or requirements
 - `references/prd-checklist.md`
 - `references/output-example.md`
 - `references/output-example-scientific.md`
+
+
 

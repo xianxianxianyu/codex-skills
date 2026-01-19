@@ -1,4 +1,4 @@
----
+﻿---
 name: parameter-sanity
 description: Validate and calibrate default parameter sets for code outputs. Use when users ask for reasonable defaults, safe parameter combinations, config tuning, or sanity checks after code changes.
 ---
@@ -11,6 +11,7 @@ description: Validate and calibrate default parameter sets for code outputs. Use
 
 ## Output
 
+- 文档正文用中文撰写；术语/字段名/命令/代码/路径/标识符等可以保留英文原样。
 - Default output path: `docs/parameter-spec.md` (ask the user if they prefer another location).
 - Follow the Doc Contract format with Doc-Type `params`.
 
@@ -48,3 +49,5 @@ description: Validate and calibrate default parameter sets for code outputs. Use
 - `references/parameter-logic.md`
 - `references/parameter-checklist.md`
 - `references/output-example.md`
+
+

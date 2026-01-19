@@ -1,4 +1,4 @@
----
+﻿---
 name: qa-basic
 description: Answer quick, lightweight questions and record a short QA note. Use when the user wants a fast explanation, definition, or comparison, and does not request code changes or long-form docs.
 ---
@@ -13,6 +13,7 @@ description: Answer quick, lightweight questions and record a short QA note. Use
 
 ## Output
 
+- 文档正文用中文撰写；术语/字段名/命令/代码/路径/标识符等可以保留英文原样。
 - Default path: `docs/qa-notes.md` (ask to change if needed).
 - Append one entry per question.
 
@@ -45,4 +46,6 @@ description: Answer quick, lightweight questions and record a short QA note. Use
 - `references/qa-triage.md`
 - `references/qa-checklist.md`
 - `references/output-example.md`
+
+
 
