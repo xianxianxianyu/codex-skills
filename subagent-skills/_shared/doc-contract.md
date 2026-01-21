@@ -26,6 +26,8 @@ Activated-Skills: <skill-name[, ...]>
 ## Language
 
 - 文档正文用中文撰写；术语/字段名/命令/代码/路径/标识符等可以保留英文原样。
+- Markdown/LaTeX：行内数学用 `$...$`，块级公式用 `$$...$$`。
+- 若出现连续三个相同字母/大写字母的占位符（如 `qqq`、`NNN`、`mmm`），默认按变量处理并规范化为 `$q$`、`$N$`、`$m$`（如需保留原样可用反引号包住）。
 
 ## Summary
 - 3 to 7 concise bullets
