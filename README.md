@@ -1,6 +1,6 @@
 # Codex Subagent Skills
 
-一组面向 Codex 的“文档产出型”技能集合：把一次对话从“回答”升级为可提交、可复盘、可追溯的文档（QA/PRD/Feasibility/Implementation/Params）。
+一组面向 Codex 的“文档产出型”技能集合：把一次对话从“回答”升级为可提交、可复盘、可追溯的文档（Repo Reader/QA/PRD/Feasibility/Implementation/Params）。
 
 - 统一格式：`subagent-skills/_shared/doc-contract.md`
 - 默认产物：写入当前工作目录的 `docs/`（可按任务调整路径）
@@ -11,6 +11,7 @@
 | skill | 用途 | 默认产物 |
 |---|---|---|
 | `qa-basic` | 快速问答与记录（轻量，不改代码） | `docs/qa-notes.md` |
+| `repo-reader` | 生成 repo 阅读/讲解文档（Repo Map/架构/关键流程/Q&A），可选二开指南与模块 mini-doc | `docs/REPO_OVERVIEW.md` |
 | `requirements-elicitation` | 需求分析 / PRD（REQ-xxx + 验收标准） | `docs/prd.md` |
 | `feasibility-analysis` | 可行性分析（方案对比/风险/成本/周期/推荐） | `docs/feasibility.md` |
 | `code-agent-core` | 代码实现与交付报告（改动/测试/风险/回滚） | `docs/implementation-report.md` |
@@ -18,8 +19,8 @@
 
 ## 推荐 Pipeline
 
-- QA → PRD → Feasibility → Implementation → Params
-- 说明：先固化问题与上下文（QA），再把需求变成可验收条目（PRD），再做方案与风险决策（Feasibility），最后落到代码交付（Implementation）与参数规范（Params）。
+- Repo Reader（可选）→ QA → PRD → Feasibility → Implementation → Params
+- 说明：当你不熟悉一个 repo 时，先用 Repo Reader 生成高密度的 Repo Map/架构/关键流程（可选二开指南与模块 mini-doc）；再固化问题与上下文（QA），把需求变成可验收条目（PRD），做方案与风险决策（Feasibility），最后落到代码交付（Implementation）与参数规范（Params）。
 
 ## 目录结构（仓库）
 
@@ -38,6 +39,7 @@ codex-skills/
     _shared/
       doc-contract.md
     qa-basic/
+    repo-reader/
     requirements-elicitation/
     feasibility-analysis/
     code-agent-core/
@@ -101,7 +103,7 @@ ln -s "$PWD/subagent-skills/_shared"  ~/.codex/skills/_shared
 
 ## 使用方式
 
-- 在对话中直接提到 skill 名称触发（例如：`qa-basic`、`requirements-elicitation`）。
+- 在对话中直接提到 skill 名称触发（例如：`repo-reader`、`qa-basic`、`requirements-elicitation`）。
 - 输出文档遵循 Doc Contract：`subagent-skills/_shared/doc-contract.md`。
 - 每次对话输出开头需声明：`已激活技能：<skill-name[, ...]>`。
 - 每份输出文档头部需填写：`Activated-Skills: <skill-name[, ...]>`。

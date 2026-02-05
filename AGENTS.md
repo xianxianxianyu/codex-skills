@@ -7,6 +7,7 @@
 | skill | 用途 | 默认产物 | 入口文件 |
 |---|---|---|---|
 | `qa-basic` | 快速问答与记录（轻量、不改代码） | `docs/qa-notes.md` | `subagent-skills/qa-basic/SKILL.md` |
+| `repo-reader` | 生成 repo 阅读/讲解文档（Repo Map/架构/关键流程/Q&A），可选二开指南与模块 mini-doc | `docs/REPO_OVERVIEW.md` | `subagent-skills/repo-reader/SKILL.md` |
 | `requirements-elicitation` | 需求分析 / PRD（REQ-xxx + 验收标准） | `docs/prd.md` | `subagent-skills/requirements-elicitation/SKILL.md` |
 | `feasibility-analysis` | 可行性分析（方案对比/风险/成本/周期/推荐） | `docs/feasibility.md` | `subagent-skills/feasibility-analysis/SKILL.md` |
 | `code-agent-core` | 代码实现与交付报告（改动/测试/风险/回滚） | `docs/implementation-report.md` | `subagent-skills/code-agent-core/SKILL.md` |
@@ -19,6 +20,7 @@
 ### Routing（触发与分流）
 
 - 仅需快速解释/定义/对比：用 `qa-basic`
+- 需要讲解/阅读一个 repo、快速上手、架构梳理、关键流程、二开/扩展、模块深挖：用 `repo-reader`
 - 需要写 PRD/需求/范围/验收标准：用 `requirements-elicitation`
 - 需要可行性、方案对比、成本/周期、风险矩阵：用 `feasibility-analysis`
 - 需要改代码/实现功能/修 bug：用 `code-agent-core`
@@ -26,8 +28,8 @@
 
 ### 标准 pipeline（推荐）
 
-- QA → PRD → Feasibility → Implementation → Params
-- 说明：先把问题与上下文固化（QA），再把需求变成可验收条目（PRD），再做方案与风险决策（Feasibility），最后落到代码与交付记录（Implementation）以及参数规范（Params）。
+- Repo Reader（可选）→ QA → PRD → Feasibility → Implementation → Params
+- 说明：当你不熟悉一个 repo 时，先用 Repo Reader 生成可追溯的 Repo Map/架构/关键流程；再固化问题与上下文（QA），把需求变成可验收条目（PRD），做方案与风险决策（Feasibility），最后落到代码与交付记录（Implementation）以及参数规范（Params）。
 
 ### 文档语言规则（重要）
 
